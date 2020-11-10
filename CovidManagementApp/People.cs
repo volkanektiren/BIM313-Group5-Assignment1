@@ -17,6 +17,11 @@ namespace CovidManagementApp
             this.gender = gender;
         }
 
+        public virtual void Display()
+        {
+            Console.WriteLine("(Name: {0}) - (Gender: {1}) - (Age: {2})", GetName(), GetGender(), GetAge());
+        }
+
         public string GetName()
         {
             return name;
