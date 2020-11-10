@@ -55,7 +55,18 @@ namespace CovidManagementApp
         }
         static void Main(string[] args)
         {
-            
+            List<People> patientPeopleList = GeneratePatientList(); //Generate patients
+            List<HighRiskCovidPatient> highRiskPatientPeopleList = new List<HighRiskCovidPatient>(); //High risk exposure patients
+            List<LowRiskCovidPatient> lowRiskPatientPeopleList = new List<LowRiskCovidPatient>(); //Low risk exposure patients
+            List<CovidSelfIzolatePatient> covidSelfIzolatePeopleList = new List<CovidSelfIzolatePatient>(); //COVID-19 self isolate people
+            List<CovidNegativePeople> covidNegativePeopleList = new List<CovidNegativePeople>(); //COVID-19 negative or inconclusive people
+            List<CovidPositivePeople> covidPossitivePeopleList = new List<CovidPositivePeople>(); //COVID-19 positive people
+
+            int high_risk_exposure_rate = 30;
+            int high_risk_exposure_symptoms_rate = 60;
+            int low_risk_exposure_symptoms_rate = 25;
+            int laboratory_testing_positive_rate = 30;
+
         }
     }
 }
