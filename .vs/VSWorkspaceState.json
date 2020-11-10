@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CovidManagementApp"
   ],
+  "SelectedNode": "\\CovidManagementApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
