@@ -20,6 +20,7 @@ namespace CovidManagementApp
         public virtual void Display()
         {
             Console.WriteLine("(Name: {0}) - (Gender: {1}) - (Age: {2})", GetName(), GetGender(), GetAge());
+            Console.WriteLine(new String('+', 60));
         }
 
         public string GetName()
