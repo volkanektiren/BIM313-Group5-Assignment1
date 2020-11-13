@@ -87,7 +87,7 @@ namespace CovidManagementApp
             Console.WriteLine("Low risk exposure symptoms rate input");
             RateInputControl(out int low_risk_exposure_symptoms_rate);
 
-            Console.WriteLine("Laboratory testing positive rate");
+            Console.WriteLine("Laboratory testing positive rate input");
             RateInputControl(out int laboratory_testing_positive_rate);
 
             List<People> patientPeopleList = GeneratePatientList(females, males); //Generate patients
